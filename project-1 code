@@ -1,0 +1,15 @@
+devops-portfolio-app/
+├── backend/                     # Node.js or Flask API
+│   ├── Dockerfile
+│   └── app.js
+├── frontend/                    # React frontend
+│   ├── Dockerfile
+│   └── src/
+├── docker-compose.yml
+├── .github/workflows/
+│   └── ci-cd.yml               # GitHub Actions workflow
+├── terraform/                  # Infrastructure-as-Code
+│   └── main.tf
+├── ansible/                    # Configuration management (optional)
+├── README.md
+└── LICENSE
